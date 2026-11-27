@@ -7,7 +7,7 @@ MICROBLOG_PYTHON="${MICROBLOG_PYTHON:-3.11}"
 API_HOST="${API_HOST:-127.0.0.1}"
 API_PORT="${API_PORT:-5000}"
 export API_BASE_URL="${API_BASE_URL:-http://${API_HOST}:${API_PORT}}"
-REWARD_FILE="${REWARD_FILE:-logs/verifier/reward.txt}"
+REWARD_FILE="${REWARD_FILE:-/logs/verifier/reward.txt}"
 
 TMP_DIR="$(mktemp -d)"
 SERVER_LOG="$TMP_DIR/server.log"
